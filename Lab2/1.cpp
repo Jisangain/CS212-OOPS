@@ -8,7 +8,7 @@ class String
     int length;
      
 public:
-    String()
+    String()  
     {
         length = 0;
         str = new char [length + 1] ;
